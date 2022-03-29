@@ -12,11 +12,11 @@ Criar uma comunicação entre um backend e um frontend usado 2 containers.
 - onde *localhost:4040* (Backend) é chamado, e redireciona para *localhost:8080* (Frontend)
   
 ### Docker
-1. Created Dockerfile for each structure in each folder
-2. Created docker-compose at source project
+1. Criado Dockerfile em cada uma das pastas para as imagens
+2. Criado docker-compose para subir as imagens juntas
 
-To build and create containers:
+criado um build de  containers:
 > docker-compose build 
 
-To run:
-> docker-compose up -d backend && docker-compose up -d frontend
+pra subir:
+backend && frontend
